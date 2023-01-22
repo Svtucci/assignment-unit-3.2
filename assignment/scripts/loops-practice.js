@@ -29,7 +29,7 @@ for(let i=0; i<5; i++) {
 // You must change the initialization
 
 console.log('count from 3 to 5');
-for(let i=3; i<5; i++) {
+for(let i=3; i<=5; i++) {
   console.log(i);
 }
 
@@ -55,11 +55,12 @@ console.log('---- 2. For Of loop ----');
 let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
+
 for (let star of stars) { //Still iff on the setup, so we use a const/let to log whatever we want for "star", of the name of the array? And then reference the "star" or constant in the loop in the console log?
   console.log('Some stars:', [star]);
 }
 
-// for 2a. I am unsure of this, please let me know if it is incorrect
+// for 2a. I am unsure of this ^^, please let me know if it is incorrect
 
 
 // 3. While loops  
@@ -90,4 +91,3 @@ while (backwards <= 10  && backwards >=5) {
   console.log(backwards);
   backwards--
 }
-
